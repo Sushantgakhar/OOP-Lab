@@ -1,0 +1,17 @@
+import java.util.*;
+public class pattern2
+{
+	public static void main(String args[])
+	{
+		int lim;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Limit: ");
+		lim=sc.nextInt();
+		for(int i=1,k=1;i<lim;k++)
+		{
+			for(int j=0;j<k;j++)
+				System.out.print(i+++" ");
+			System.out.println();
+		}
+	}
+}
